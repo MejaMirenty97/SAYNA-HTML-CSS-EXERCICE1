@@ -1,0 +1,139 @@
+body{
+    font-family: Verdana, calibri, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Open Sans" sans-serif;
+    background-image: url("lemur.jpg");
+    background-size: 100%;
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+nav{
+    width: 100%;
+}
+
+nav > ul{
+     margin: 0px;
+     padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav > ul > li{
+    float: right;
+    position: relative;
+    right: 150px;
+    top: -50px;
+}
+nav > ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.submenu{
+    display: none;
+}
+
+nav input[type=checkbox]{
+    display: none;
+}
+nav label{
+    display: none;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: whitesmoke;
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: white;
+    width: 270px;
+}
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+
+.menu-accueil:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.menu-compagniesaériennes:hover{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+.menu-croisières:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-àpropos:hover{
+    border-top: 5px solid red;
+    background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.menu-accueil .submenu{
+    background-color: RGB(230, 100, 40);
+}
+.menu-compagniesaériennes .submenu{
+    background-color: RGB(00, 160, 240);
+}
+.menu-croisières .submenu{
+    background-color: RGB(260, 215, 100);
+}
+.menu-àpropos .submenu{
+    background-color: RGB(228, 77, 38);
+}
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+.menu-accueil .submenu li:hover{
+    background-color: RGB(240, 77, 60);
+}
+.menu-compagniesaériennes .submenu li:hover{
+    background-color: RGB(000, 115, 200);
+}
+.menu-croisières .submenu li:hover{
+    background-color: RGB(200, 175, 75);
+}
+.menu-àpropos .submenu li:hover{
+    background-color: RGB(228, 77, 38);
+}
+
+.Big-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    color: blanchedalmond;
+}
+.lil-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: inherit;
+    color: ivory;
+}

@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid rgb(187, 2, 2);
+    border-radius: 10px;
+    color: firebrick;
+    background-color: tomato;
+}
+h2{
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: thistle;
+    color: tomato;
+    background-color: wheat;
+}
+li{
+    text-align: justify;
+    text-transform: capitalize;
+    color: dodgerblue;
+}
+p{
+    text-align: justify;
+    text-shadow: gray;
+    text-transform: initial;
+    border-radius: 20px;
+    color: black;
+}
+hr{
+    border: 10px solid blue;
+    border-radius: 20px;
+    border-bottom: blue;
+}
