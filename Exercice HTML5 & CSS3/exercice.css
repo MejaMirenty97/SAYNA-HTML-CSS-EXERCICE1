@@ -102,11 +102,11 @@ h4{
     
 }
 
-.image figure img{
+.image figure{
   transform: scale(1);
   transition: 0.3s ease-in-out; 
 }
- .image figure img:hover{
+ .image figure:hover{
     transform: scale(1.2);
  }
 
